@@ -1,0 +1,78 @@
+/*
+Copyright 2017 Dora Tomljenovic <dxt5777>.
+HTML and CSS referenced: Prof.Kristina Marasovic
+Helped by: Toni Golac
+
+Date: September,25
+ */
+
+
+@media only screen and (max-width: 1280px){
+    
+    nav a{
+        
+       width: 32%;
+       
+        
+    }
+    
+    ul{
+        
+        font-size: 160%;
+        
+    }
+    
+    h2{
+        
+        padding-top: 15%;
+    }
+        
+}
+
+
+   
+
+    @media only screen and (max-width: 500px){
+        
+        nav a{
+            
+            
+            width: 32%;
+            font-size: 125%;
+            text-decoration: none;
+        }
+        
+        h2{
+            
+            font-size: 25%;
+        }
+        
+        #picture{
+            
+            height: 40%;
+            width: 40%;
+            padding-left: 30%;
+            
+            
+        }
+        
+        h3,h4{
+            
+            font-size: 130%;
+        }
+        
+        ul.list{
+            
+            font-size: 100%;
+            
+        }
+        
+        ul.list2{
+            
+            font-size: 100%;
+        }
+        
+        
+    }
+
+

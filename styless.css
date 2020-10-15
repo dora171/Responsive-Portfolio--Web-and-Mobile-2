@@ -1,0 +1,163 @@
+/**
+Copyright 2017 Dora Tomljenovic <dxt5777>.
+HTML and CSS referenced: Prof.Kristina Marasovic
+Helped by: Toni Golac
+
+Date: September,25
+*/
+
+/* TABLE OF CONTENTS
+ *  - Colors
+ *  - Basic Setup
+ *  - Sidebar Top
+ *  - Main: Hero Page
+ *  - Main: Home 
+ */
+ 
+ /* COLORS 
+ * Navigation:       #b998b4;    
+ * Active:           #ffffff;     
+ * Section-home background-image: universe.jpg
+ */
+ 
+
+
+*{
+
+margin: 0;
+width: 100%;
+}
+
+body{
+    
+    
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* MAIN */
+
+#main{
+	
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+        margin-right: 0;	
+}
+
+/*   NAV */
+nav{
+	
+	position: fixed;
+	width: 100vw;
+	background-color: #b998b4;
+        z-index: 1;
+        
+	
+}
+
+
+nav a{
+    
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+    
+}
+
+
+nav a:active{
+    
+    color: #ffffff;
+}
+
+
+section{
+    
+  height: 100vh;
+  padding: 2em 0;
+  width: 100%;
+  
+    
+}
+
+header{
+    
+    background: url(universe.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.hero-text-box{
+    
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 200%;
+
+    
+}
+
+#section-about{
+    
+    background-color: #4b3862;
+    
+}
+
+h2{
+    
+   font-size: 130%;
+   color: #ffffff;
+   padding-top: 5%;
+   
+    
+}
+
+#section-project{
+    
+    background-color: #ffffff;
+    
+}
+
+#section-home{
+    padding: 0px;
+}
+
+#picture{
+    
+    height: 15%;
+    width: 15%;
+    padding-top: 10%;
+    padding-left: 45%;
+}
+
+h3{
+    
+    font-size: 200%;
+    padding-top: 40%;
+}
+
+h4{
+    
+    font-size: 200%;
+    padding-top: 40%;
+}
+
+ul.list{
+    
+    font-size: 150%;
+    
+}
+
+ul.list2{
+    
+    font-size: 150%;
+}
+
